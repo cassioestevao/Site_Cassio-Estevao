@@ -7,24 +7,130 @@
     <title>Site</title>
 </head>
     <h2>
-        <span><i></i>C</span>
-        <span><i></i>Á</span>
-        <span><i></i>S</span>
-        <span><i></i>S</span>
+        <span><i></i>F</span>
+        <a></a>
         <span><i></i>I</span>
-        <span><i></i>O</span>
-        <a></a><a></a>
-        <span><i></i>E</span>
-        <span><i></i>S</span>
-        <span><i></i>T</span>
-        <span><i></i>E</span>
-        <span><i></i>V</span>
-        <span><i></i>Ã</span>
-        <span><i></i>0</span>
-
+        <a></a>
+        <span><i></i>W</span>
+        <a></a>
+        <span><i></i>G</span>
     </h2>
-
+<p>
+    <h3>
+        <span><i></i>Bem vindo(a)!</span>
+        <a></a>
+        <span><i></i>Meu nome é Cássio Estevão.</span>
+        <a></a>
+        <span><i></i>Sou estudante de Analise e Desenvolvimento de Sistemas.</span>
+        <a></a>
+        <span><i></i>Esse é o meu primeiro projeto!</span>
+    </h3>
+   
+</p>
 <body>
-    
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href=#"https://linkedin.com/cassioestevao">
+                    <span class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>            
+                    </span>
+                    <span class="text">Linkedin</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href=#"https://github.com/cassioestevao">
+                    <span class="icon">
+                    <ion-icon name="logo-github"></ion-icon>                   
+                    </span>
+                    <span class="text">Projetos</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href=#"email-to:cassioestevaops@gmail.com">
+                    <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>                   
+                    </span>
+                    <span class="text">Contato</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href=#"https://wa.me/+5501527998062898">
+                    <span class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    </span>
+                    <span class="text">Falar!</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                    <ion-icon name="apps-outline"></ion-icon>     
+                    </span>               
+                    <span class="text">My Life</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                    <ion-icon name="code-slash-outline"></ion-icon>        
+                    </span>            
+                    <span class="text">Anotações</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                    <ion-icon name="logo-skype"></ion-icon>
+                    </span>
+                    <span class="text">Skype</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                    <ion-icon name="logo-discord"></ion-icon>
+                    </span>
+                    <span class="text">Discord</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href=#"https://www.twitter.com/">
+                    <span class="icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    </span>
+                    <span class="text">Twitter</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href=#"https://www.facebook.com/cassioestevao">
+                    <span class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    </span>
+                    <span class="text">Facebook</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                    <ion-icon name="logo-setting"></ion-icon>
+                    </span>
+                    <span class="text">Configurações</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+    </div>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item)=>
+        item.addEventListener('click',activeLink)); 
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
 </body>
 </html>
