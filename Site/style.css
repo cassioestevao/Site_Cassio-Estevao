@@ -8,21 +8,21 @@
 h3
 {
     position: relative;
-    color: #fff;
+    color: #ffff0e;
     text-align: center;
     font-style: italic;
     justify-content:center;
     display: flex;
     top: 6em;
-    right: 13em;
-    font-family: 'Times New Roman', Times, serif;
+    right: 10em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 h3 span
 {
     position: relative;
     filter: blur(5px);
     padding:0 15px;
-    transition: 0.3s;
+    transition: 3.0s;
 }
 h3 span:hover
 {
@@ -42,7 +42,7 @@ h3 span:hover i::before
     left: 0;
     width: 2px;
     height: 8px;
-    background: #fff;
+    background: #ffff0e;
 }
 h3 span:hover i::after
 {
@@ -52,11 +52,11 @@ h3 span:hover i::after
     left: 0;
     width: 8px;
     height: 2px;
-    background: #fff;
+    background: #ffff0e;
 }
 :root
 {
-    --crl:#272227;
+    --crl:hsl(200, 96%, 9%);
 }
 body
 {
@@ -71,10 +71,10 @@ h2
     position: relative;
     display: flex;
     gap: 5px;
-    color: #fff;
+    color: #ffff0e;
     font-size: 9em;
     cursor: pointer;
-    left: 4.5em;
+    left: 2em;
 }
 h2 span
 {
@@ -101,7 +101,7 @@ h2 span:hover i::before
     left: 0;
     width: 2px;
     height: 8px;
-    background: #fff;
+    background: #ffff0e;
 }
 h2 span:hover i::after
 {
@@ -111,21 +111,21 @@ h2 span:hover i::after
     left: 0;
     width: 8px;
     height: 2px;
-    background: #fff;
+    background: #ffff0e;
 }
 .navigation
 {
-    top: 56em;
-    width: 1000em;
+    width: 800px;
     height: 75px;
-    min-width: 90vh;
-    background:linear-gradient(4890deg,#fff,rgb(49, 49, 49));
+    min-width: 100vh;
+    background-color: #ffff0e;
     position:absolute;
     display:flex;
     justify-content: center;
     align-items:center;
     border-radius: 10px;
     margin-top: 1em;
+    top: 725px;
 }
 .navigation ul
 {
@@ -158,7 +158,7 @@ h2 span:hover i::after
     display: block;
     line-height:75px;
     font-size: 2.5em;
-    text-align: center;
+    text-align: center; 
     transition: 0.5s;
     color: var(--crl);
 }
@@ -188,7 +188,7 @@ h2 span:hover i::after
     position: absolute;
     width: 70px;
     height: 70px;
-    background:linear-gradient(45deg,#402626,rgb(162, 162, 162));
+    background:linear-gradient(890deg,#ffff0e,var(--crl));
     border-radius: 50%;
     border: 6px solid var(--crl);
     transition: 0.5s;
